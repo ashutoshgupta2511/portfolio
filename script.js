@@ -1,0 +1,2 @@
+document.getElementById('themeBtn').addEventListener('click',()=>document.body.classList.toggle('dark'));
+document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();alert('Message submitted!');});
